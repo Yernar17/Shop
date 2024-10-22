@@ -1,0 +1,174 @@
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    background: blueviolet; 
+            align-items: center;
+            justify-content: center;
+            color: black; 
+            font-size: 20px;
+            position: fixed;
+            z-index: 10;
+            width: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.t:hover{
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.t{
+    color:black;
+    text-decoration: none;
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+}
+
+*{
+    padding: auto;
+    margin: auto;
+}
+
+body{
+    background: gray;
+}
+
+.wrapper{
+    margin-top: 100px;
+    position: absolute;
+    top: -100%; 
+    left: 30%;
+    transform: translateX(-50%);
+    animation: slideDown 1.5s ease-in-out forwards;
+}
+
+footer{
+    background: #282828;
+    color: white;
+    display: flex;
+    gap: 160px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.te button{
+background: blueviolet;
+color: white;
+}
+
+.wrapper1{
+    margin-top: 100px;
+    position: absolute;
+    top: -100%; 
+    left: 53%;
+    transform: translateX(-50%);
+    animation: slideDown 1.5s ease-in-out forwards;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.iphone {
+    width: 300px; 
+}
+
+aside{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 60px;
+}
+
+header img{
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 1px;
+}
+
+.container{
+    color: black;
+    display: flex;
+    padding-bottom: 8px;
+    text-align: center;
+    text-decoration: white solid;
+}
+
+.wrapper{
+    border-radius: 10px;
+}
+
+.container:hover{
+    background: #a5a5a5;
+    border-radius: 8px;
+}
+
+.container1{
+    background: white;
+    border-radius: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    width: 900px;
+    padding-top: 100px;
+    margin-left: 150px;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.obuv{
+    width: 250px;
+    height: auto;
+}
+
+.wrapper2{
+    margin-top: 100px;
+    position: absolute;
+    top: -100%; 
+    left: 76%;
+    transform: translateX(-50%);
+    animation: slideDown 1.5s ease-in-out forwards;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+section{
+    background: white;
+    width: fit-content;
+    padding-bottom: 200px;
+    position: absolute;
+    left: 0; 
+    top: 0;
+    padding-bottom: 485px;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@keyframes slideDown {
+    from {
+top: -100%; 
+    }
+   
+to {
+        top: 10%; 
+    }
+}
